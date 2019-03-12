@@ -7,7 +7,7 @@
 
     <FrameLayout
         android:layout_width="590dp"
-        android:layout_height="318dp"
+        android:layout_height="320dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -18,7 +18,7 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:orientation="horizontal">
 
                 <FrameLayout
@@ -27,63 +27,63 @@
 
                     <Button
                         android:id="@+id/buttonLeft"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:text="L" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="84dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <Button
                         android:id="@+id/buttonMid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:text="M" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="84dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <Button
                         android:id="@+id/buttonRight"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:text="R" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="84dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <Button
                         android:id="@+id/buttonFlash"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:text="Flash" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="84dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <Button
                         android:id="@+id/buttonBlue"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:text="Blue" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="84dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -107,12 +107,12 @@
 
                 <FrameLayout
                     android:layout_width="84dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <Button
                         android:id="@+id/buttonBT"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:text="BT" />
                 </FrameLayout>
 
@@ -120,7 +120,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="22dp"
+                android:layout_height="30dp"
                 android:background="@android:color/darker_gray"
                 android:orientation="horizontal"
                 android:visibility="visible">
@@ -216,28 +216,40 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="84dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
-                        <Button
-                            android:id="@+id/buttonRound1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="R1" />
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
 
-                        <Button
-                            android:id="@+id/buttonRound2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="R2" />
+                            <Button
+                                android:id="@+id/buttonRound1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="R1" />
+                        </FrameLayout>
 
-                        <Button
-                            android:id="@+id/buttonRound3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="R3" />
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
+                            <Button
+                                android:id="@+id/buttonRound2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="R2" />
+                        </FrameLayout>
 
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
+                            <Button
+                                android:id="@+id/buttonRound3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="R3" />
+                        </FrameLayout>
                     </LinearLayout>
 
                     <LinearLayout
@@ -245,23 +257,34 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
-                        <Button
-                            android:id="@+id/buttonSameTime1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="ST1" />
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
+                            <Button
+                                android:id="@+id/buttonSameTime1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="ST1" />
+                        </FrameLayout>
 
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
                         <Button
                             android:id="@+id/buttonSameTime2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="ST2" />
-
-                        <Button
-                            android:id="@+id/buttonSameTime3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="ST3" />
+                        </FrameLayout>
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
+                            <Button
+                                android:id="@+id/buttonSameTime3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="ST3" />
+                        </FrameLayout>
                     </LinearLayout>
 
                     <LinearLayout
@@ -269,26 +292,38 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
-                        <Button
-                            android:id="@+id/buttonRandom1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Rndm1"
-                            android:textAllCaps="false" />
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
+                            <Button
+                                android:id="@+id/buttonRandom1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Rndm1"
+                                android:textAllCaps="false" />
+                        </FrameLayout>
 
-                        <Button
-                            android:id="@+id/buttonRandom2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Rndm2"
-                            android:textAllCaps="false" />
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
+                            <Button
+                                android:id="@+id/buttonRandom2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Rndm2"
+                                android:textAllCaps="false" />
+                        </FrameLayout>
 
-                        <Button
-                            android:id="@+id/buttonRandom3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Rndm3"
-                            android:textAllCaps="false" />
+                        <FrameLayout
+                            android:layout_width="84dp"
+                            android:layout_height="60dp">
+                            <Button
+                                android:id="@+id/buttonRandom3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Rndm3"
+                                android:textAllCaps="false" />
+                        </FrameLayout>
 
                     </LinearLayout>
 
@@ -300,8 +335,8 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <LinearLayout
@@ -309,79 +344,124 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <Button
-                                android:id="@+id/buttonUpBPM"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="UP" />
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="50dp">
 
-                            <TextView
-                                android:id="@+id/textView10"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                <Button
+                                    android:id="@+id/buttonUpBPM"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="UP" />
+                            </FrameLayout>
 
-                            <Button
-                                android:id="@+id/buttonDownBPM"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Down"
-                                android:textAllCaps="false" />
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="20dp">
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="TextView" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="50dp">
+
+                                <Button
+                                    android:id="@+id/buttonDownBPM"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Down"
+                                    android:textAllCaps="false" />
+                            </FrameLayout>
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="84dp"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <Button
-                                android:id="@+id/buttonDoubleTempo"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="X2" />
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="60dp">
 
-                            <Button
-                                android:id="@+id/buttonTap"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Tap" />
+                                <Button
+                                    android:id="@+id/buttonDoubleTempo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="X2" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="60dp">
+
+                                <Button
+                                    android:id="@+id/buttonTap"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Tap" />
+                            </FrameLayout>
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="84dp"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <Button
-                                android:id="@+id/buttoAux1"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Aux1" />
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="60dp">
 
-                            <Button
-                                android:id="@+id/buttonAux2"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Aux2" />
+                                <Button
+                                    android:id="@+id/buttoAux1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Aux1" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="60dp">
+
+                                <Button
+                                    android:id="@+id/buttonAux2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Aux2" />
+                            </FrameLayout>
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="84dp"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <Button
-                                android:id="@+id/buttonDefault"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Default" />
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="60dp">
 
-                            <Button
-                                android:id="@+id/buttonTurnOffAll"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Off All" />
+                                <Button
+                                    android:id="@+id/buttonDefault"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Default" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="84dp"
+                                android:layout_height="60dp">
+
+                                <Button
+                                    android:id="@+id/buttonTurnOffAll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Off All" />
+                            </FrameLayout>
                         </LinearLayout>
                     </LinearLayout>
 
@@ -389,7 +469,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
+                        <SeekBar
+                            android:id="@+id/seekBar3"
+                            style="@android:style/Widget.SeekBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp" />
                     </FrameLayout>
+
                 </LinearLayout>
 
             </LinearLayout>
